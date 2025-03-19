@@ -1,14 +1,15 @@
 programa {
   funcao inicio() {
    cadeia nome 
-   cadeia idade 
-   cadeia altura
+   real idade 
+   inteiro altura
 
-		escreva("Digite seu nome: ")
-		leia(nome)
+    escreva("Digite seu nome: ")
+    leia(nome)
     escreva("Digite sua idade: ")
     leia(idade)
-    escreva("Digite sua altura: ")
+    escreva("Digite sua altura (em centimetro): ")
     leia(altura)
+    Digite("Nome, Idade, Altura")
   }
 }
