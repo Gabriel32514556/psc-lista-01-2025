@@ -11,5 +11,9 @@ programa {
     escreva("Digite sua altura (em centimetro): ")
     leia(altura)
     Digite("Nome, Idade, Altura")
+    escreva("\nDados do usuário:\n")
+    escreva("Nome: ", nome, "\n")
+    escreva("Idade: ", idade, " anos\n")
+    escreva("Altura: ", altura, " centímetros\n")
   }
 }
